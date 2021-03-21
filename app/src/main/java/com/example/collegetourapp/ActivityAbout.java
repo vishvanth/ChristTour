@@ -1,5 +1,5 @@
 package com.example.collegetourapp;
-
+//test
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;

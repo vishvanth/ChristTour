@@ -1,5 +1,5 @@
 package com.example.collegetourapp;
-
+//Testing commit march 22nd
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
