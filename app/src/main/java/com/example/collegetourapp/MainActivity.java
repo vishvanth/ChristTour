@@ -1,5 +1,5 @@
 package com.example.collegetourapp;
-//Testing commit signature:  march 22nd 12:29 Vish
+//Testing commit signature:  march 22nd 12:29 Vish Varadh
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
     private Button buttonList;
     private Button buttonAbout;
 
-
+//varadh was here
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
