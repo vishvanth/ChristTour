@@ -1,46 +1,51 @@
 package com.example.collegetourapp;
 //Testing commit signature:  march 22nd 12:29 Vish Varadh
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
+import android.widget.ImageSwitcher;
+import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
-    private Button buttonMap;
-    private Button buttonList;
-    private Button buttonAbout;
+    private ImageView buttonListIcon;
+    private ImageView buttonAboutIcon;
+    private ImageView buttonMapIcon;
 
-//varadh was here
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        buttonMap = (Button) findViewById(R.id.buttonMap);
-        buttonMap.setOnClickListener(new View.OnClickListener() {
+        buttonMapIcon = (ImageView) findViewById(R.id.buttonMapIcon);
+        buttonMapIcon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openActivityMap();
             }
         });
 
-        buttonList = (Button) findViewById(R.id.buttonList);
-        buttonList.setOnClickListener(new View.OnClickListener() {
+        buttonListIcon = (ImageView) findViewById(R.id.buttonListIcon);
+        buttonListIcon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openActivityList();
             }
         });
 
-        buttonAbout = (Button) findViewById(R.id.buttonAbout);
-        buttonAbout.setOnClickListener(new View.OnClickListener() {
+        buttonAboutIcon = (ImageView) findViewById(R.id.buttonAboutIcon);
+        buttonAboutIcon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openActivityAbout();
             }
         });
+
+
     }
 
     public void openActivityMap(){
