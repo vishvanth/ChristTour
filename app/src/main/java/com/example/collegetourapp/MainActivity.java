@@ -10,6 +10,7 @@ import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageSwitcher;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     private ImageView buttonListIcon;
@@ -20,6 +21,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Toast.makeText(this, "Welcome to Christ Tour App :)", Toast.LENGTH_LONG).show();
 
         buttonMapIcon = (ImageView) findViewById(R.id.buttonMapIcon);
         buttonMapIcon.setOnClickListener(new View.OnClickListener() {
