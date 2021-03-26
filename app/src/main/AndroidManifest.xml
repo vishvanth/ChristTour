@@ -15,7 +15,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CollegeTourApp">
-        <activity android:name=".ActivityAbout"></activity>
+        <activity android:name=".ResultActivity"></activity>
+        <activity android:name=".ActivityAbout" />
         <activity android:name=".ActivityList" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
