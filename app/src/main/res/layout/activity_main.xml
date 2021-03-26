@@ -4,62 +4,59 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="@drawable/gradient2">
+    android:background="@drawable/gradient2"
+    tools:context=".MainActivity">
 
     <!--hello-->
 
     <ImageView
-        android:layout_width="325dp"
-        android:layout_height="209dp"
+        android:id="@+id/homeLogo"
+        android:layout_width="338dp"
+        android:layout_height="137dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="1dp"
+        android:layout_marginTop="41dp"
         android:src="@drawable/christ_tras" />
 
     <ImageView
         android:id="@+id/buttonMapIcon"
         android:layout_width="107dp"
         android:layout_height="107dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="63dp"
-        android:layout_marginTop="204dp"
-        app:srcCompat="@drawable/ic_map" />
+        android:layout_below="@+id/homeLogo"
+        android:layout_alignStart="@+id/homeLogo"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/map" />
 
     <ImageView
         android:id="@+id/buttonListIcon"
         android:layout_width="103dp"
         android:layout_height="106dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="231dp"
-        android:layout_marginTop="218dp"
-        app:srcCompat="@drawable/ic_list" />
+        android:layout_below="@+id/homeLogo"
+        android:layout_alignEnd="@+id/homeLogo"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="30dp"
+        android:src="@drawable/list" />
 
     <ImageView
         android:id="@+id/buttonAboutIcon"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_centerVertical="true"
-        android:layout_marginStart="68dp"
-        android:layout_marginTop="379dp"
-        app:srcCompat="@drawable/ic_about" />
+        android:layout_below="@+id/buttonMapIcon"
+        android:layout_alignStart="@+id/homeLogo"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="42dp"
+        android:src="@drawable/info" />
 
     <ImageView
         android:id="@+id/buttonHelpIcon"
         android:layout_width="133dp"
         android:layout_height="133dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_centerVertical="true"
-        android:layout_marginStart="209dp"
-        android:layout_marginTop="366dp"
-        app:srcCompat="@drawable/ic_help" />
+        android:layout_below="@+id/buttonListIcon"
+        android:layout_alignEnd="@+id/homeLogo"
+        android:layout_marginTop="16.5dp"
+        android:layout_marginEnd="24dp"
+        android:src="@drawable/help_button" />
 
 
 </RelativeLayout>
