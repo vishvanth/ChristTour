@@ -11,8 +11,8 @@ tools:ignore="ExtraText">
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="192dp"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="90dp"
         android:fontFamily="sans-serif-medium"
         android:text=" Get to know more about Christ University\n
 Kengeri Campus through this app.\n
@@ -40,5 +40,6 @@ Submitted to: Jyothi Mandala(Faculty)"
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="121dp"
+        android:paddingTop="10dp"
         app:srcCompat="@drawable/christ_tras" />
 </RelativeLayout>

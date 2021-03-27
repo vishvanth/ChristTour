@@ -15,9 +15,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CollegeTourApp">
-        <activity android:name=".ResultActivity"></activity>
-        <activity android:name=".ActivityAbout" />
-        <activity android:name=".ActivityList" />
+        <activity
+            android:name=".ResultActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".ActivityAbout"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityList"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ActivityHelp"
+            android:screenOrientation="portrait">
+
+        </activity>
 
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
@@ -31,21 +43,21 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
-    <activity
-        android:name=".MapsActivity"
-        android:label="@string/title_activity_maps" />
-    <activity android:name=".MainActivity">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter></activity>
-    <activity android:name=".ActivityHelp">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-    </activity>
-</application>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+    </application>
 
 </manifest>

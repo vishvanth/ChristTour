@@ -8,12 +8,12 @@ package com.example.collegetourapp;
         import android.widget.TextView;
 
 public class ActivityHelp extends AppCompatActivity {
-    TextView textView;
+    private TextView textView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_help);
-        Toast.makeText(ActivityHelp.this, "Welcome", Toast.LENGTH_SHORT).show();
+        //Toast.makeText(ActivityHelp.this, "Welcome", Toast.LENGTH_SHORT).show();
         textView = findViewById(R.id.textView5);
         textView.setMovementMethod(LinkMovementMethod.getInstance());
     }
