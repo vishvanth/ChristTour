@@ -29,7 +29,7 @@
         <androidx.cardview.widget.CardView
             android:id="@+id/b1"
             android:layout_width="match_parent"
-            android:layout_height="134dp"
+            android:layout_height="200dp"
             android:layout_alignParentTop="true"
             android:layout_alignParentBottom="true"
             android:layout_marginTop="10sp"
@@ -42,20 +42,47 @@
             app:cardPreventCornerOverlap="true"
             app:cardUseCompatPadding="true"
             tools:ignore="DuplicateIds,InvalidId">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/block1"
+                android:tint="#40000000">
+            </ImageView>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="20dp"
                 android:text="Block-1"
                 android:textColor="@color/white"
-                android:layout_gravity="center|center_horizontal"
-                android:textAlignment="textEnd"
+                android:layout_gravity="top|left"
+                android:textAlignment="textStart"
                 android:paddingRight="20sp"
                 android:paddingTop="10sp"
                 android:textSize="20sp"
                 android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|left"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="20dp"
+                android:paddingTop="10sp"
+                android:paddingRight="20sp"
+                android:text="Main administrative building and also known as MBA block"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="italic"
                 tools:ignore="RtlCompat" />
         </androidx.cardview.widget.CardView>
 
