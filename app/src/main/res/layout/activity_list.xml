@@ -31,7 +31,8 @@
         android:layout_marginTop="117dp"
         android:background="@drawable/but"
         android:backgroundTint="@color/buttonblue"
-        android:text="Blocks" />
+        android:text="Blocks"
+        android:foreground="?attr/selectableItemBackgroundBorderless"/>
 
     <Button
         android:id="@+id/grounds"
@@ -43,7 +44,8 @@
         android:layout_marginTop="31dp"
         android:background="@drawable/but"
         android:backgroundTint="@color/buttonblue"
-        android:text="Grounds" />
+        android:text="Grounds"
+        android:foreground="?attr/selectableItemBackgroundBorderless"/>
 
     <Button
         android:id="@+id/hangouts"
@@ -55,7 +57,8 @@
         android:layout_toEndOf="@+id/blocks"
         android:background="@drawable/but"
         android:backgroundTint="@color/buttonblue"
-        android:text="Hangouts" />
+        android:text="Hangouts"
+        android:foreground="?attr/selectableItemBackgroundBorderless"/>
 
     <Button
         android:id="@+id/theaters"
@@ -67,7 +70,8 @@
         android:layout_marginEnd="0dp"
         android:background="@drawable/but"
         android:backgroundTint="@color/buttonblue"
-        android:text="Theaters" />
+        android:text="Theaters"
+        android:foreground="?attr/selectableItemBackgroundBorderless"/>
 
     <Button
         android:id="@+id/canteens"
@@ -79,7 +83,8 @@
         android:layout_toEndOf="@+id/blocks"
         android:background="@drawable/but"
         android:backgroundTint="@color/buttonblue"
-        android:text="Canteens" />
+        android:text="Canteens"
+        android:foreground="?attr/selectableItemBackgroundBorderless"/>
 
 
 </RelativeLayout>
