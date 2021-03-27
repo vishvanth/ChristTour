@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:app="http://schemas.android.com/apk/res-auto"
-xmlns:tools="http://schemas.android.com/tools"
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-tools:context=".ActivityAbout"
-tools:ignore="ExtraText">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".ActivityAbout"
+    tools:ignore="ExtraText">
 
     <TextView
         android:id="@+id/textView2"
@@ -19,13 +19,9 @@ Kengeri Campus through this app.\n
 This App contains the Map, List of places\n
 and Description of the places available in\n
 Christ University Kengeri Campus.\n\n\n\n
-
-
-
 This App was created to submit as a\n
 Project for Programming Paradigm CIA-3\n
 Component for 4BTCS-C (2020-2021).\n\n\n
-
 Contributors:\n
 1960401-Vishvanth S\n
 1960399-Varadh VI\n
@@ -40,6 +36,8 @@ Submitted to: Jyothi Mandala(Faculty)"
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="121dp"
-        android:paddingTop="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="65dp"
+        android:paddingTop="10dp"
         app:srcCompat="@drawable/christ_tras" />
 </RelativeLayout>

@@ -62,10 +62,9 @@
         android:layout_width="141dp"
         android:layout_height="92dp"
         android:layout_below="@+id/grounds"
-        android:layout_alignStart="@+id/blocks"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="87dp"
-        android:layout_marginTop="30dp"
+        android:layout_alignEnd="@+id/grounds"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="0dp"
         android:background="@drawable/but"
         android:backgroundTint="@color/buttonblue"
         android:text="Theaters" />

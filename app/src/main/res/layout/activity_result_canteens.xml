@@ -20,7 +20,8 @@
             android:paddingLeft="20sp"
             android:paddingTop="20sp"
             android:paddingRight="20sp"
-            android:text="Canteens"
+            android:text="There are various canteens located around the campus in The University.
+The canteens serves delicious and healthy food for reasonable prices."
             android:textAlignment="center"
             android:textSize="18sp"
             android:textStyle="bold">

@@ -20,7 +20,7 @@
             android:paddingLeft="20sp"
             android:paddingTop="20sp"
             android:paddingRight="20sp"
-            android:text="Theaters"
+            android:text="The University has various audi/theatres located around the campus, Each block on the campus has its own audi/theatre."
             android:textAlignment="center"
             android:textSize="18sp"
             android:textStyle="bold">
