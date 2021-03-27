@@ -12,15 +12,14 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
         <TextView
+            android:background="@drawable/gradient3"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Blocks are referred to the main infrastructures located in the kengeri campus.
-We have in total blocks, each named Block1, Block2, Block3, Block4, Block5.
-Each block serves as an important facility where the students spent their time during college, whether it be studying, having food, researching etc."
+            android:text="Blocks are referred to the main infrastructures located in the kengeri campus."
             android:textSize="18sp"
             android:textStyle="bold"
             android:textAlignment="center"
-            android:paddingTop="50sp"
+            android:paddingTop="20sp"
             android:paddingLeft="20sp"
             android:paddingRight="20sp"
             >
