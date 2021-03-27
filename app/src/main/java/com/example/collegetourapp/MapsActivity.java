@@ -15,20 +15,25 @@ import java.util.ArrayList;
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;
-    ArrayList<LatLng>arrayList=new ArrayList<LatLng>();
+    ArrayList<LatLng> arrayList = new ArrayList<LatLng>();
 
-    String[] namesList = new String[]{"Open Audi", "PU College", "Block 1", "Block 2", "Block 3", "Block 4", "Block 5", "Devadan Hall" };
+    String[] namesList = new String[]{"Open Audi", "PU College", "Block 1", "Block 2", "Block 3", "Block 4", "Block 5", "Devadan Hall", "Architecture Block"
+            , "Main Ground", "Basketball Ground", "Band Stand", "Solar Panel", "Amphitheater"};
 
-    LatLng openAudi = new LatLng(12.862700, 77.438594);
-    LatLng puCollege = new LatLng(12.860271, 77.437214);
-    LatLng block1 = new LatLng(12.862959, 77.437947);
-    LatLng block2 = new LatLng(12.862784, 77.438296);
-    LatLng block3 = new LatLng(12.862412, 77.438782);
-    LatLng block4 = new LatLng(12.862241, 77.439269);
+    LatLng openAudi = new LatLng(12.8630615, 77.4386741); //done
+    LatLng puCollege = new LatLng(12.8604500, 77.4370274); //done
+    LatLng block1 = new LatLng(12.8630785, 77.4379522); //done
+    LatLng block2 = new LatLng(12.8629131, 77.4383522); //done
+    LatLng block3 = new LatLng(12.8627212, 77.4388792); //done
+    LatLng block4 = new LatLng(12.8625567, 77.4392073); //done
     LatLng block5 = new LatLng(12.861780, 77.438497);
-    LatLng devadanHall = new LatLng(12.860247, 77.439468);
-
-
+    LatLng devadanHall = new LatLng(12.8604251, 77.4393860);
+    LatLng archi = new LatLng(12.8602868, 77.4396068);
+    LatLng mainground = new LatLng(12.8616224, 77.4363119);
+    LatLng basketground = new LatLng(12.8616224, 77.4363119);
+    LatLng bandstand = new LatLng(12.8627918, 77.4364783);
+    LatLng solar = new LatLng(12.8612432, 77.4414635);
+    LatLng amphi = new LatLng(12.8614043, 77.4379488);
 
 
     @Override
@@ -47,6 +52,13 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         arrayList.add(block4);
         arrayList.add(block5);
         arrayList.add(devadanHall);
+        arrayList.add(archi);
+        arrayList.add(mainground);
+        arrayList.add(basketground);
+        arrayList.add(bandstand);
+        arrayList.add(solar);
+        arrayList.add(amphi);
+
 
     }
 
@@ -67,7 +79,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         for(int i=0; i<arrayList.size();i++){
             mMap.addMarker(new MarkerOptions().position(arrayList.get(i)).title(namesList[i]));
         }
-        mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(block5, 17.0f));
+        mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(amphi, 17.0f));
         //mMap.moveCamera(CameraUpdateFactory.newLatLng(openAudi));
     }
 }
