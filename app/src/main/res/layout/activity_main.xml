@@ -12,10 +12,11 @@
     <ImageView
         android:id="@+id/homeLogo"
         android:layout_width="338dp"
+        android:paddingTop="40dp"
         android:layout_height="137dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="82dp"
+        android:layout_marginTop="70dp"
         android:src="@drawable/christ_tras" />
 
     <ImageView

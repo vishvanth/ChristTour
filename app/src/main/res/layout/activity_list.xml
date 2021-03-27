@@ -7,61 +7,6 @@
     tools:context=".MainActivity"
     android:background="@drawable/gradient">
 
-    <Button
-        android:id="@+id/events"
-        android:layout_width="141dp"
-        android:layout_height="92dp"
-        android:layout_below="@+id/theaters"
-        android:layout_alignStart="@+id/blocks"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="30dp"
-        android:backgroundTint="@color/buttonblue"
-        android:text="Events" />/>
-
-    <Button
-        android:id="@+id/others"
-        android:layout_width="141dp"
-        android:layout_height="92dp"
-        android:layout_alignTop="@+id/events"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="0dp"
-        android:layout_toEndOf="@+id/blocks"
-        android:backgroundTint="@color/buttonblue"
-        android:text="Others" />/>
-
-    <Button
-        android:id="@+id/theaters"
-        android:layout_width="141dp"
-        android:layout_height="92dp"
-        android:layout_below="@+id/grounds"
-        android:layout_alignStart="@+id/blocks"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="30dp"
-        android:backgroundTint="@color/buttonblue"
-        android:text="Theaters" />/>
-
-    <Button
-        android:id="@+id/hangouts"
-        android:layout_width="141dp"
-        android:layout_height="92dp"
-        android:layout_alignTop="@+id/theaters"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="0dp"
-        android:layout_toEndOf="@+id/blocks"
-        android:backgroundTint="@color/buttonblue"
-        android:text="Hangouts" />/>
-
-    <Button
-        android:id="@+id/grounds"
-        android:layout_width="141dp"
-        android:layout_height="92dp"
-        android:layout_below="@+id/blocks"
-        android:layout_alignStart="@+id/blocks"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="30dp"
-        android:backgroundTint="@color/buttonblue"
-        android:text="Grounds" />/>
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="231dp"
@@ -74,7 +19,7 @@
         android:textColor="@color/black"
         android:textAlignment="center"
         android:backgroundTint="@color/black"
-        android:textSize="36sp" />/>
+        android:textSize="36sp" />
 
     <Button
         android:id="@+id/blocks"
@@ -82,26 +27,48 @@
         android:layout_height="92dp"
         android:layout_below="@+id/textView"
         android:layout_alignStart="@+id/textView"
-        android:layout_marginStart="-42dp"
-        android:layout_marginTop="68dp"
+        android:layout_marginStart="-37dp"
+        android:layout_marginTop="117dp"
+        android:background="@drawable/but"
         android:backgroundTint="@color/buttonblue"
-        android:text="Blocks"
-
-        />
+        android:text="Blocks" />
 
     <Button
-        android:id="@+id/labs"
+        android:id="@+id/grounds"
         android:layout_width="141dp"
         android:layout_height="92dp"
-        android:layout_below="@+id/textView"
-        android:layout_alignTop="@+id/blocks"
-        android:layout_alignEnd="@+id/textView"
-        android:layout_marginStart="33dp"
-        android:layout_marginTop="0dp"
-        android:layout_marginEnd="-42dp"
-        android:layout_toEndOf="@+id/blocks"
+        android:layout_below="@+id/blocks"
+        android:layout_alignStart="@+id/blocks"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="31dp"
+        android:background="@drawable/but"
         android:backgroundTint="@color/buttonblue"
-        android:text="Labs" />
+        android:text="Grounds" />
+
+    <Button
+        android:id="@+id/hangouts"
+        android:layout_width="141dp"
+        android:layout_height="92dp"
+        android:layout_alignTop="@+id/theaters"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="-123dp"
+        android:layout_toEndOf="@+id/blocks"
+        android:background="@drawable/but"
+        android:backgroundTint="@color/buttonblue"
+        android:text="Hangouts" />
+
+    <Button
+        android:id="@+id/theaters"
+        android:layout_width="141dp"
+        android:layout_height="92dp"
+        android:layout_below="@+id/grounds"
+        android:layout_alignStart="@+id/blocks"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/but"
+        android:backgroundTint="@color/buttonblue"
+        android:text="Theaters" />
 
     <Button
         android:id="@+id/canteens"
@@ -109,10 +76,11 @@
         android:layout_height="92dp"
         android:layout_alignTop="@+id/grounds"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="0dp"
+        android:layout_marginTop="-123dp"
         android:layout_toEndOf="@+id/blocks"
+        android:background="@drawable/but"
         android:backgroundTint="@color/buttonblue"
-        android:text="Canteens" />/>
+        android:text="Canteens" />
 
 
 </RelativeLayout>

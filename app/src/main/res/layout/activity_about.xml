@@ -40,6 +40,6 @@ Submitted to: Jyothi Mandala(Faculty)"
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="121dp"
-        android:paddingTop="10dp"
+        android:paddingTop="50dp"
         app:srcCompat="@drawable/christ_tras" />
 </RelativeLayout>

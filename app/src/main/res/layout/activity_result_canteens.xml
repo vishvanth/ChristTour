@@ -50,7 +50,7 @@
                 android:layout_height="match_parent"
                 android:adjustViewBounds="true"
                 android:scaleType="centerCrop"
-                android:src="@drawable/block1"
+                android:src="@drawable/enj"
                 android:tint="#40000000"></ImageView>
 
             <TextView
@@ -63,7 +63,7 @@
                 android:layout_marginBottom="10dp"
                 android:paddingTop="10sp"
                 android:paddingRight="20sp"
-                android:text="Block-1"
+                android:text="Eat N Joy"
                 android:textAlignment="textStart"
                 android:textColor="@color/white"
                 android:textSize="20sp"
@@ -80,7 +80,7 @@
                 android:layout_marginBottom="30dp"
                 android:paddingTop="10sp"
                 android:paddingRight="20sp"
-                android:text="Main administrative building and also known as MBA block"
+                android:text="One of the 4th block canteens"
                 android:textAlignment="textStart"
                 android:textColor="@color/white"
                 android:textSize="15sp"
@@ -110,7 +110,7 @@
                 android:layout_height="match_parent"
                 android:adjustViewBounds="true"
                 android:scaleType="centerCrop"
-                android:src="@drawable/block2"
+                android:src="@drawable/c2"
                 android:tint="#40000000"></ImageView>
 
             <TextView
@@ -123,7 +123,7 @@
                 android:layout_marginBottom="10dp"
                 android:paddingTop="10sp"
                 android:paddingRight="20sp"
-                android:text="Block-2"
+                android:text="Maria Foods"
                 android:textAlignment="textStart"
                 android:textColor="@color/white"
                 android:textSize="20sp"
@@ -140,7 +140,7 @@
                 android:layout_marginBottom="30dp"
                 android:paddingTop="10sp"
                 android:paddingRight="20sp"
-                android:text="Department of Computer Science"
+                android:text="Fast food stall beside Eat N Joy"
                 android:textAlignment="textStart"
                 android:textColor="@color/white"
                 android:textSize="15sp"
@@ -170,7 +170,7 @@
                 android:layout_height="match_parent"
                 android:adjustViewBounds="true"
                 android:scaleType="centerCrop"
-                android:src="@drawable/block3"
+                android:src="@drawable/c3"
                 android:tint="#40000000"></ImageView>
 
             <TextView
@@ -183,7 +183,7 @@
                 android:layout_marginBottom="10dp"
                 android:paddingTop="10sp"
                 android:paddingRight="20sp"
-                android:text="Block-3"
+                android:text="South Canteen"
                 android:textAlignment="textStart"
                 android:textColor="@color/white"
                 android:textSize="20sp"
@@ -200,7 +200,7 @@
                 android:layout_marginBottom="30dp"
                 android:paddingTop="10sp"
                 android:paddingRight="20sp"
-                android:text="Department of Science and Humanities.           ''First year classes are held here.''"
+                android:text="Lunch / Dinner "
                 android:textAlignment="textStart"
                 android:textColor="@color/white"
                 android:textSize="15sp"
@@ -231,7 +231,7 @@
                 android:layout_height="match_parent"
                 android:adjustViewBounds="true"
                 android:scaleType="centerCrop"
-                android:src="@drawable/block4"
+                android:src="@drawable/c4"
                 android:tint="#40000000"></ImageView>
 
             <TextView
@@ -244,7 +244,7 @@
                 android:layout_marginBottom="10dp"
                 android:paddingTop="10sp"
                 android:paddingRight="20sp"
-                android:text="Block-4"
+                android:text="ICH"
                 android:textAlignment="textStart"
                 android:textColor="@color/white"
                 android:textSize="20sp"
@@ -261,7 +261,7 @@
                 android:layout_marginBottom="30dp"
                 android:paddingTop="10sp"
                 android:paddingRight="20sp"
-                android:text="The Doraemon block"
+                android:text="Closer to the gate and has an amazing hangouts area."
                 android:textAlignment="textStart"
                 android:textColor="@color/white"
                 android:textSize="15sp"
@@ -292,7 +292,7 @@
                 android:layout_height="match_parent"
                 android:adjustViewBounds="true"
                 android:scaleType="centerCrop"
-                android:src="@drawable/block5"
+                android:src="@drawable/c5"
                 android:tint="#40000000"></ImageView>
 
             <TextView
@@ -305,7 +305,7 @@
                 android:layout_marginBottom="10dp"
                 android:paddingTop="10sp"
                 android:paddingRight="20sp"
-                android:text="Block-5"
+                android:text="Mingos"
                 android:textAlignment="textStart"
                 android:textColor="@color/white"
                 android:textSize="20sp"
@@ -322,7 +322,7 @@
                 android:layout_marginBottom="30dp"
                 android:paddingTop="10sp"
                 android:paddingRight="20sp"
-                android:text="Department of Automobile and Mechanical Engineering"
+                android:text="Just below Maria Foods, beside the stationary"
                 android:textAlignment="textStart"
                 android:textColor="@color/white"
                 android:textSize="15sp"
@@ -330,7 +330,6 @@
                 tools:ignore="RtlCompat" />
         </androidx.cardview.widget.CardView>
 
-        <!--architecture-->
         <androidx.cardview.widget.CardView
             android:id="@+id/b1"
             android:layout_width="match_parent"
@@ -353,7 +352,7 @@
                 android:layout_height="match_parent"
                 android:adjustViewBounds="true"
                 android:scaleType="centerCrop"
-                android:src="@drawable/architecture"
+                android:src="@drawable/c6"
                 android:tint="#40000000"></ImageView>
 
             <TextView
@@ -366,7 +365,7 @@
                 android:layout_marginBottom="10dp"
                 android:paddingTop="10sp"
                 android:paddingRight="20sp"
-                android:text="Architecture Block"
+                android:text="North Canteen"
                 android:textAlignment="textStart"
                 android:textColor="@color/white"
                 android:textSize="20sp"
@@ -383,136 +382,12 @@
                 android:layout_marginBottom="30dp"
                 android:paddingTop="10sp"
                 android:paddingRight="20sp"
-                android:text="Department of Architecture"
+                android:text="Right in front of Hostel A block."
                 android:textAlignment="textStart"
                 android:textColor="@color/white"
                 android:textSize="15sp"
                 android:textStyle="italic"
                 tools:ignore="RtlCompat" />
         </androidx.cardview.widget.CardView>
-
-        <!--Devadanhall-->
-        <androidx.cardview.widget.CardView
-            android:id="@+id/b1"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginLeft="10sp"
-            android:layout_marginTop="0sp"
-            android:layout_marginRight="10sp"
-            app:cardBackgroundColor="@color/buttonblue"
-            app:cardCornerRadius="20dp"
-            app:cardElevation="10dp"
-            app:cardMaxElevation="12dp"
-            app:cardPreventCornerOverlap="true"
-            app:cardUseCompatPadding="true"
-            tools:ignore="DuplicateIds,InvalidId">
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:adjustViewBounds="true"
-                android:scaleType="centerCrop"
-                android:src="@drawable/dev"
-                android:tint="#40000000"></ImageView>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="top|left"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="30dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginBottom="10dp"
-                android:paddingTop="10sp"
-                android:paddingRight="20sp"
-                android:text="Devadanhall"
-                android:textAlignment="textStart"
-                android:textColor="@color/white"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                tools:ignore="RtlCompat" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="bottom|left"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="50dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginBottom="30dp"
-                android:paddingTop="10sp"
-                android:paddingRight="20sp"
-                android:text="Boys Hostel and Dept of Architecture"
-                android:textAlignment="textStart"
-                android:textColor="@color/white"
-                android:textSize="15sp"
-                android:textStyle="italic"
-                tools:ignore="RtlCompat" />
-        </androidx.cardview.widget.CardView>
-
-        <!--PU College-->
-        <androidx.cardview.widget.CardView
-            android:id="@+id/b1"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginLeft="10sp"
-            android:layout_marginTop="0sp"
-            android:layout_marginRight="10sp"
-            app:cardBackgroundColor="@color/buttonblue"
-            app:cardCornerRadius="20dp"
-            app:cardElevation="10dp"
-            app:cardMaxElevation="12dp"
-            app:cardPreventCornerOverlap="true"
-            app:cardUseCompatPadding="true"
-            tools:ignore="DuplicateIds,InvalidId">
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:adjustViewBounds="true"
-                android:scaleType="centerCrop"
-                android:src="@drawable/pu"
-                android:tint="#40000000"></ImageView>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="top|left"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="30dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginBottom="10dp"
-                android:paddingTop="10sp"
-                android:paddingRight="20sp"
-                android:text="PU College"
-                android:textAlignment="textStart"
-                android:textColor="@color/white"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                tools:ignore="RtlCompat" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="bottom|left"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="50dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginBottom="30dp"
-                android:paddingTop="10sp"
-                android:paddingRight="20sp"
-                android:text="PU college is an all boys school with hostel.       Chavara Kuriakose Elias Chapel."
-                android:textAlignment="textStart"
-                android:textColor="@color/white"
-                android:textSize="15sp"
-                android:textStyle="italic"
-                tools:ignore="RtlCompat" />
-        </androidx.cardview.widget.CardView>
-
-
     </LinearLayout>
 </ScrollView>

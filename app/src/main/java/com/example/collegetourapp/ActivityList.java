@@ -16,8 +16,6 @@ public class ActivityList extends AppCompatActivity {
     private Button buttonCanteens;
     private Button buttonTheater;
     private Button buttonHangout;
-    private Button buttonEvent;
-    private Button buttonOthers;
 
 
     @Override
@@ -31,14 +29,6 @@ public class ActivityList extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 openActivityResult();
-            }
-        });
-        //labs
-        buttonLabs = findViewById(R.id.labs);
-        buttonLabs.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                openActivityResultLabs();
             }
         });
         //grounds
@@ -73,33 +63,11 @@ public class ActivityList extends AppCompatActivity {
                 openActivityResultHangouts();
             }
         });
-        //Events
-        buttonEvent = findViewById(R.id.events);
-        buttonEvent.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                openActivityResultEvents();
-            }
-        });
-        //others
-        buttonOthers = findViewById(R.id.others);
-        buttonOthers.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                openActivityResultOthers();
-            }
-        });
-
-
     }
+
 
     public void openActivityResult() {
         Intent intent = new Intent(this, ResultActivity.class);
-        startActivity(intent);
-    }
-
-    public void openActivityResultLabs() {
-        Intent intent = new Intent(this, ReseultActivityLabs.class);
         startActivity(intent);
     }
 
@@ -123,15 +91,6 @@ public class ActivityList extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void openActivityResultEvents() {
-        Intent intent = new Intent(this, ResultActivityEvents.class);
-        startActivity(intent);
-    }
-
-    public void openActivityResultOthers() {
-        Intent intent = new Intent(this, ResultActivityOthers.class);
-        startActivity(intent);
-    }
 
 
 }
