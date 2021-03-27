@@ -15,7 +15,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CollegeTourApp">
-        <activity android:name=".labs"></activity>
+        <activity android:name=".ResultActivityOthers"></activity>
+        <activity android:name=".ResultActivityEvents" />
+        <activity android:name=".ResultActivityHangouts" />
+        <activity android:name=".ResultActivityTheaters" />
+        <activity android:name=".ResultActivityCanteens" />
+        <activity android:name=".ResultActivityGrounds" />
+        <activity android:name=".ReseultActivityLabs" />
+        <activity android:name=".labs" />
         <activity
             android:name=".ResultActivity"
             android:screenOrientation="portrait" />
@@ -27,7 +34,7 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".ActivityHelp"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").

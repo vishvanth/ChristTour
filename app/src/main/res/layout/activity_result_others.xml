@@ -4,25 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient">
+    android:background="@drawable/gradient"
+    tools:context=".one">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
+
         <TextView
-            android:background="@drawable/gradient3"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Blocks are referred to the main infrastructures located in the kengeri campus."
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:textAlignment="center"
-            android:paddingTop="20sp"
-            android:paddingLeft="20sp"
-            android:paddingRight="20sp"
             android:layout_marginBottom="30sp"
-            >
+            android:background="@drawable/gradient3"
+            android:paddingLeft="20sp"
+            android:paddingTop="20sp"
+            android:paddingRight="20sp"
+            android:text="Ohters"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold">
 
         </TextView>
 
@@ -31,9 +32,10 @@
             android:id="@+id/b1"
             android:layout_width="match_parent"
             android:layout_height="200dp"
-
-            android:layout_marginTop="0sp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
             android:layout_marginLeft="10sp"
+            android:layout_marginTop="0sp"
             android:layout_marginRight="10sp"
             app:cardBackgroundColor="@color/buttonblue"
             app:cardCornerRadius="20dp"
@@ -42,28 +44,28 @@
             app:cardPreventCornerOverlap="true"
             app:cardUseCompatPadding="true"
             tools:ignore="DuplicateIds,InvalidId">
+
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:adjustViewBounds="true"
                 android:scaleType="centerCrop"
                 android:src="@drawable/block1"
-                android:tint="#40000000">
-            </ImageView>
+                android:tint="#40000000"></ImageView>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="30dp"
-                android:layout_marginBottom="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginLeft="20dp"
-                android:text="Block-1"
-                android:textColor="@color/white"
                 android:layout_gravity="top|left"
-                android:textAlignment="textStart"
-                android:paddingRight="20sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
                 android:paddingTop="10sp"
+                android:paddingRight="20sp"
+                android:text="Block-1"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 tools:ignore="RtlCompat" />
@@ -72,10 +74,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom|left"
-                android:layout_marginTop="50dp"
-                android:layout_marginBottom="30dp"
-                android:layout_marginRight="10dp"
                 android:layout_marginLeft="20dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="30dp"
                 android:paddingTop="10sp"
                 android:paddingRight="20sp"
                 android:text="Main administrative building and also known as MBA block"
@@ -92,8 +94,8 @@
             android:layout_height="200dp"
             android:layout_alignParentTop="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginTop="0sp"
             android:layout_marginLeft="10sp"
+            android:layout_marginTop="0sp"
             android:layout_marginRight="10sp"
             app:cardBackgroundColor="@color/buttonblue"
             app:cardCornerRadius="20dp"
@@ -102,28 +104,28 @@
             app:cardPreventCornerOverlap="true"
             app:cardUseCompatPadding="true"
             tools:ignore="DuplicateIds,InvalidId">
+
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:adjustViewBounds="true"
                 android:scaleType="centerCrop"
                 android:src="@drawable/block2"
-                android:tint="#40000000">
-            </ImageView>
+                android:tint="#40000000"></ImageView>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="30dp"
-                android:layout_marginBottom="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginLeft="20dp"
-                android:text="Block-2"
-                android:textColor="@color/white"
                 android:layout_gravity="top|left"
-                android:textAlignment="textStart"
-                android:paddingRight="20sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
                 android:paddingTop="10sp"
+                android:paddingRight="20sp"
+                android:text="Block-2"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 tools:ignore="RtlCompat" />
@@ -132,10 +134,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom|left"
-                android:layout_marginTop="50dp"
-                android:layout_marginBottom="30dp"
-                android:layout_marginRight="10dp"
                 android:layout_marginLeft="20dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="30dp"
                 android:paddingTop="10sp"
                 android:paddingRight="20sp"
                 android:text="Department of Computer Science"
@@ -152,8 +154,8 @@
             android:layout_height="200dp"
             android:layout_alignParentTop="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginTop="0sp"
             android:layout_marginLeft="10sp"
+            android:layout_marginTop="0sp"
             android:layout_marginRight="10sp"
             app:cardBackgroundColor="@color/buttonblue"
             app:cardCornerRadius="20dp"
@@ -162,28 +164,28 @@
             app:cardPreventCornerOverlap="true"
             app:cardUseCompatPadding="true"
             tools:ignore="DuplicateIds,InvalidId">
+
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:adjustViewBounds="true"
                 android:scaleType="centerCrop"
                 android:src="@drawable/block3"
-                android:tint="#40000000">
-            </ImageView>
+                android:tint="#40000000"></ImageView>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="30dp"
-                android:layout_marginBottom="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginLeft="20dp"
-                android:text="Block-3"
-                android:textColor="@color/white"
                 android:layout_gravity="top|left"
-                android:textAlignment="textStart"
-                android:paddingRight="20sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
                 android:paddingTop="10sp"
+                android:paddingRight="20sp"
+                android:text="Block-3"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 tools:ignore="RtlCompat" />
@@ -192,10 +194,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom|left"
-                android:layout_marginTop="50dp"
-                android:layout_marginBottom="30dp"
-                android:layout_marginRight="10dp"
                 android:layout_marginLeft="20dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="30dp"
                 android:paddingTop="10sp"
                 android:paddingRight="20sp"
                 android:text="Department of Science and Humanities.           ''First year classes are held here.''"
@@ -206,15 +208,15 @@
                 tools:ignore="RtlCompat" />
         </androidx.cardview.widget.CardView>
 
-<!--block4-->
+        <!--block4-->
         <androidx.cardview.widget.CardView
             android:id="@+id/b1"
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_alignParentTop="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginTop="0sp"
             android:layout_marginLeft="10sp"
+            android:layout_marginTop="0sp"
             android:layout_marginRight="10sp"
             app:cardBackgroundColor="@color/buttonblue"
             app:cardCornerRadius="20dp"
@@ -223,28 +225,28 @@
             app:cardPreventCornerOverlap="true"
             app:cardUseCompatPadding="true"
             tools:ignore="DuplicateIds,InvalidId">
+
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:adjustViewBounds="true"
                 android:scaleType="centerCrop"
                 android:src="@drawable/block4"
-                android:tint="#40000000">
-            </ImageView>
+                android:tint="#40000000"></ImageView>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="30dp"
-                android:layout_marginBottom="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginLeft="20dp"
-                android:text="Block-4"
-                android:textColor="@color/white"
                 android:layout_gravity="top|left"
-                android:textAlignment="textStart"
-                android:paddingRight="20sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
                 android:paddingTop="10sp"
+                android:paddingRight="20sp"
+                android:text="Block-4"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 tools:ignore="RtlCompat" />
@@ -253,10 +255,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom|left"
-                android:layout_marginTop="50dp"
-                android:layout_marginBottom="30dp"
-                android:layout_marginRight="10dp"
                 android:layout_marginLeft="20dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="30dp"
                 android:paddingTop="10sp"
                 android:paddingRight="20sp"
                 android:text="The Doraemon block"
@@ -272,8 +274,10 @@
             android:id="@+id/b1"
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:layout_marginTop="0sp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
             android:layout_marginLeft="10sp"
+            android:layout_marginTop="0sp"
             android:layout_marginRight="10sp"
             app:cardBackgroundColor="@color/buttonblue"
             app:cardCornerRadius="20dp"
@@ -282,28 +286,28 @@
             app:cardPreventCornerOverlap="true"
             app:cardUseCompatPadding="true"
             tools:ignore="DuplicateIds,InvalidId">
+
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:adjustViewBounds="true"
                 android:scaleType="centerCrop"
                 android:src="@drawable/block5"
-                android:tint="#40000000">
-            </ImageView>
+                android:tint="#40000000"></ImageView>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="30dp"
-                android:layout_marginBottom="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginLeft="20dp"
-                android:text="Block-5"
-                android:textColor="@color/white"
                 android:layout_gravity="top|left"
-                android:textAlignment="textStart"
-                android:paddingRight="20sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
                 android:paddingTop="10sp"
+                android:paddingRight="20sp"
+                android:text="Block-5"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 tools:ignore="RtlCompat" />
@@ -312,10 +316,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom|left"
-                android:layout_marginTop="50dp"
-                android:layout_marginBottom="30dp"
-                android:layout_marginRight="10dp"
                 android:layout_marginLeft="20dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="30dp"
                 android:paddingTop="10sp"
                 android:paddingRight="20sp"
                 android:text="Department of Automobile and Mechanical Engineering"
@@ -333,8 +337,8 @@
             android:layout_height="200dp"
             android:layout_alignParentTop="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginTop="0sp"
             android:layout_marginLeft="10sp"
+            android:layout_marginTop="0sp"
             android:layout_marginRight="10sp"
             app:cardBackgroundColor="@color/buttonblue"
             app:cardCornerRadius="20dp"
@@ -343,28 +347,28 @@
             app:cardPreventCornerOverlap="true"
             app:cardUseCompatPadding="true"
             tools:ignore="DuplicateIds,InvalidId">
+
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:adjustViewBounds="true"
                 android:scaleType="centerCrop"
                 android:src="@drawable/architecture"
-                android:tint="#40000000">
-            </ImageView>
+                android:tint="#40000000"></ImageView>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="30dp"
-                android:layout_marginBottom="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginLeft="20dp"
-                android:text="Architecture Block"
-                android:textColor="@color/white"
                 android:layout_gravity="top|left"
-                android:textAlignment="textStart"
-                android:paddingRight="20sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
                 android:paddingTop="10sp"
+                android:paddingRight="20sp"
+                android:text="Architecture Block"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 tools:ignore="RtlCompat" />
@@ -373,10 +377,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom|left"
-                android:layout_marginTop="50dp"
-                android:layout_marginBottom="30dp"
-                android:layout_marginRight="10dp"
                 android:layout_marginLeft="20dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="30dp"
                 android:paddingTop="10sp"
                 android:paddingRight="20sp"
                 android:text="Department of Architecture"
@@ -394,8 +398,8 @@
             android:layout_height="200dp"
             android:layout_alignParentTop="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginTop="0sp"
             android:layout_marginLeft="10sp"
+            android:layout_marginTop="0sp"
             android:layout_marginRight="10sp"
             app:cardBackgroundColor="@color/buttonblue"
             app:cardCornerRadius="20dp"
@@ -404,28 +408,28 @@
             app:cardPreventCornerOverlap="true"
             app:cardUseCompatPadding="true"
             tools:ignore="DuplicateIds,InvalidId">
+
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:adjustViewBounds="true"
                 android:scaleType="centerCrop"
                 android:src="@drawable/dev"
-                android:tint="#40000000">
-            </ImageView>
+                android:tint="#40000000"></ImageView>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="30dp"
-                android:layout_marginBottom="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginLeft="20dp"
-                android:text="Devadanhall"
-                android:textColor="@color/white"
                 android:layout_gravity="top|left"
-                android:textAlignment="textStart"
-                android:paddingRight="20sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
                 android:paddingTop="10sp"
+                android:paddingRight="20sp"
+                android:text="Devadanhall"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 tools:ignore="RtlCompat" />
@@ -434,10 +438,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom|left"
-                android:layout_marginTop="50dp"
-                android:layout_marginBottom="30dp"
-                android:layout_marginRight="10dp"
                 android:layout_marginLeft="20dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="30dp"
                 android:paddingTop="10sp"
                 android:paddingRight="20sp"
                 android:text="Boys Hostel and Dept of Architecture"
@@ -455,8 +459,8 @@
             android:layout_height="200dp"
             android:layout_alignParentTop="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginTop="0sp"
             android:layout_marginLeft="10sp"
+            android:layout_marginTop="0sp"
             android:layout_marginRight="10sp"
             app:cardBackgroundColor="@color/buttonblue"
             app:cardCornerRadius="20dp"
@@ -465,28 +469,28 @@
             app:cardPreventCornerOverlap="true"
             app:cardUseCompatPadding="true"
             tools:ignore="DuplicateIds,InvalidId">
+
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:adjustViewBounds="true"
                 android:scaleType="centerCrop"
                 android:src="@drawable/pu"
-                android:tint="#40000000">
-            </ImageView>
+                android:tint="#40000000"></ImageView>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="30dp"
-                android:layout_marginBottom="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginLeft="20dp"
-                android:text="PU College"
-                android:textColor="@color/white"
                 android:layout_gravity="top|left"
-                android:textAlignment="textStart"
-                android:paddingRight="20sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
                 android:paddingTop="10sp"
+                android:paddingRight="20sp"
+                android:text="PU College"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 tools:ignore="RtlCompat" />
@@ -495,10 +499,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom|left"
-                android:layout_marginTop="50dp"
-                android:layout_marginBottom="30dp"
-                android:layout_marginRight="10dp"
                 android:layout_marginLeft="20dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="30dp"
                 android:paddingTop="10sp"
                 android:paddingRight="20sp"
                 android:text="PU college is an all boys school with hostel.       Chavara Kuriakose Elias Chapel."

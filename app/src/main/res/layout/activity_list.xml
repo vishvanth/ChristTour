@@ -16,7 +16,8 @@
         android:layout_marginStart="0dp"
         android:layout_marginTop="30dp"
         android:backgroundTint="@color/buttonblue"
-        android:text="Events" />/>
+        android:background="@drawable/but"
+        android:text="Events" />
 
     <Button
         android:id="@+id/others"
@@ -27,7 +28,8 @@
         android:layout_marginTop="0dp"
         android:layout_toEndOf="@+id/blocks"
         android:backgroundTint="@color/buttonblue"
-        android:text="Others" />/>
+        android:background="@drawable/but"
+        android:text="Others" />
 
     <Button
         android:id="@+id/theaters"
@@ -38,7 +40,8 @@
         android:layout_marginStart="0dp"
         android:layout_marginTop="30dp"
         android:backgroundTint="@color/buttonblue"
-        android:text="Theaters" />/>
+        android:background="@drawable/but"
+        android:text="Theaters" />
 
     <Button
         android:id="@+id/hangouts"
@@ -49,7 +52,8 @@
         android:layout_marginTop="0dp"
         android:layout_toEndOf="@+id/blocks"
         android:backgroundTint="@color/buttonblue"
-        android:text="Hangouts" />/>
+        android:background="@drawable/but"
+        android:text="Hangouts" />
 
     <Button
         android:id="@+id/grounds"
@@ -60,7 +64,8 @@
         android:layout_marginStart="0dp"
         android:layout_marginTop="30dp"
         android:backgroundTint="@color/buttonblue"
-        android:text="Grounds" />/>
+        android:background="@drawable/but"
+        android:text="Grounds" />
 
     <TextView
         android:id="@+id/textView"
@@ -74,7 +79,7 @@
         android:textColor="@color/black"
         android:textAlignment="center"
         android:backgroundTint="@color/black"
-        android:textSize="36sp" />/>
+        android:textSize="36sp" />
 
     <Button
         android:id="@+id/blocks"
@@ -86,7 +91,7 @@
         android:layout_marginTop="68dp"
         android:backgroundTint="@color/buttonblue"
         android:text="Blocks"
-
+        android:background="@drawable/but"
         />
 
     <Button
@@ -101,6 +106,7 @@
         android:layout_marginEnd="-42dp"
         android:layout_toEndOf="@+id/blocks"
         android:backgroundTint="@color/buttonblue"
+        android:background="@drawable/but"
         android:text="Labs" />
 
     <Button
@@ -112,7 +118,8 @@
         android:layout_marginTop="0dp"
         android:layout_toEndOf="@+id/blocks"
         android:backgroundTint="@color/buttonblue"
-        android:text="Canteens" />/>
+        android:background="@drawable/but"
+        android:text="Canteens" />
 
 
 </RelativeLayout>
