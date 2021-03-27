@@ -474,7 +474,7 @@
                 android:layout_height="match_parent"
                 android:adjustViewBounds="true"
                 android:scaleType="centerCrop"
-                android:src="@drawable/dev"
+                android:src="@drawable/pu"
                 android:tint="#40000000">
             </ImageView>
 
