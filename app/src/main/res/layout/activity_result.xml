@@ -505,7 +505,7 @@
                 android:layout_marginLeft="20dp"
                 android:paddingTop="10sp"
                 android:paddingRight="20sp"
-                android:text="PU college is an all boys school with hostel.  Chavara Kuriakose Elias Chapel."
+                android:text="PU college is an all boys school with hostel.       Chavara Kuriakose Elias Chapel."
                 android:textAlignment="textStart"
                 android:textColor="@color/white"
                 android:textSize="15sp"
