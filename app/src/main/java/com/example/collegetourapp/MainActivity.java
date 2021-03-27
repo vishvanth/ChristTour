@@ -13,6 +13,7 @@ package com.example.collegetourapp;
 
 
 public class MainActivity extends AppCompatActivity {
+    //testing sparta
     private ImageView buttonListIcon;
     private ImageView buttonAboutIcon;
     private ImageView buttonMapIcon;
