@@ -1,19 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".ActivityAbout"
-    android:background="@drawable/gradient">
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+tools:context=".ActivityAbout"
+tools:ignore="ExtraText">
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_centerInParent="true"
-        android:layout_marginTop="220dp"
-        android:text=" This will have about  :\n\n 1960399  Varadh  V. I\n 1960401 Vishvanth S"
-        android:textSize="25sp" />
+        android:layout_marginTop="192dp"
+        android:fontFamily="sans-serif-medium"
+        android:text=" Get to know more about Christ University\n
+Kengeri Campus through this app.\n
+This App contains the Map, List of places\n
+and Description of the places available in\n
+Christ University Kengeri Campus.\n\n\n\n
+
+
+
+This App was created to submit as a\n
+Project for Programming Paradigm CIA-3\n
+Component for 4BTCS-C (2020-2021).\n\n\n
+
+Contributors:\n
+1960401-Vishvanth S\n
+1960399-Varadh VI\n
+1960394-Tenzin Namsey\n
+1960404-Sai Ganesh\n
+Submitted to: Jyothi Mandala(Faculty)"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="121dp"
+        app:srcCompat="@drawable/christ_tras" />
 </RelativeLayout>

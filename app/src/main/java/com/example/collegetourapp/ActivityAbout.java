@@ -3,6 +3,7 @@ package com.example.collegetourapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.Toast;
 
 public class ActivityAbout extends AppCompatActivity {
 
@@ -10,5 +11,6 @@ public class ActivityAbout extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about);
+        Toast.makeText(ActivityAbout.this, "Welcome", Toast.LENGTH_SHORT).show();
     }
 }

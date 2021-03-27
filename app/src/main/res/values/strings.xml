@@ -3,6 +3,7 @@
     <string name="title_activity_maps">Map</string>
     <string name="audi_theatres">Audi / Theatres</string>
     <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="messageWithLink"><a href="https://christuniversity.in/bangalore-kengeri-campus">https://christuniversity.in/bangalore-kengeri-campus</a></string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
 

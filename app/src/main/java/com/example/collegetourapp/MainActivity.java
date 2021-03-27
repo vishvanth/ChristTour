@@ -1,21 +1,22 @@
 package com.example.collegetourapp;
-//Testing commit signature:  march 22nd 12:29 Vish Varadh
 
-import androidx.appcompat.app.AppCompatActivity;
+        import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
-import android.widget.ImageButton;
-import android.widget.ImageSwitcher;
-import android.widget.ImageView;
-import android.widget.Toast;
+        import android.content.Intent;
+        import android.os.Bundle;
+        import android.view.View;
+        import android.widget.Button;
+        import android.widget.ImageButton;
+        import android.widget.ImageSwitcher;
+        import android.widget.ImageView;
+        import android.widget.Toast;
+
 
 public class MainActivity extends AppCompatActivity {
     private ImageView buttonListIcon;
     private ImageView buttonAboutIcon;
     private ImageView buttonMapIcon;
+    private ImageView buttonHelpIcon;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,6 +49,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        buttonHelpIcon = (ImageView) findViewById(R.id.buttonHelpIcon);
+        buttonHelpIcon.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openActivityHelp();
+            }
+        });
 
     }
 
@@ -65,5 +73,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ActivityAbout.class);
         startActivity(intent);
 
+    }
+
+    public void openActivityHelp(){
+        Intent intent = new Intent(this, ActivityHelp.class);
+        startActivity(intent);
     }
 }
