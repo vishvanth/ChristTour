@@ -10,6 +10,7 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MapStyleOptions;
 import com.google.android.gms.maps.model.MarkerOptions;
@@ -99,7 +100,22 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         for (int i = 0; i < arrayList.size(); i++) {
             mMap.addMarker(new MarkerOptions().position(arrayList.get(i)).title(namesList[i]));
         }
-        mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(amphi, 17.0f));
-        //mMap.moveCamera(CameraUpdateFactory.newLatLng(openAudi));
+
+        CameraPosition position = new CameraPosition.Builder()
+                .target(amphi)
+                .zoom(17.0f)
+                .bearing(0)
+                .tilt(45)
+                .build();
+
+        //mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(amphi, 17.0f));
+        mMap.animateCamera(CameraUpdateFactory.newCameraPosition(position));
+
+
+        //CameraPosition currentCameraPosition = mMap.getCameraPosition();
+        //double currentZoom = currentCameraPosition.zoom;
+        //double currentTilt = currentCameraPosition.tilt;
+
+
     }
 }
