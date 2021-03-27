@@ -1,5 +1,329 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content" />
+    android:layout_height="match_parent"
+    tools:context=".one"
+    android:background="@drawable/gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Blocks are referred to the main infrastructures located in the kengeri campus.
+We have in total blocks, each named Block1, Block2, Block3, Block4, Block5.
+Each block serves as an important facility where the students spent their time during college, whether it be studying, having food, researching etc."
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:paddingTop="50sp"
+            android:paddingLeft="20sp"
+            android:paddingRight="20sp"
+            >
+
+        </TextView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/b1"
+            android:layout_width="match_parent"
+            android:layout_height="134dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            app:cardBackgroundColor="@color/buttonblue"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp"
+            app:cardMaxElevation="12dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true"
+            tools:ignore="DuplicateIds,InvalidId">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="Block-1"
+                android:textColor="@color/white"
+                android:layout_gravity="center|center_horizontal"
+                android:textAlignment="textEnd"
+                android:paddingRight="20sp"
+                android:paddingTop="10sp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/b1"
+            android:layout_width="match_parent"
+            android:layout_height="134dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            app:cardBackgroundColor="@color/buttonblue"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp"
+            app:cardMaxElevation="12dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true"
+            tools:ignore="DuplicateIds,InvalidId">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="Block-2"
+                android:textColor="@color/white"
+                android:layout_gravity="center|center_horizontal"
+                android:textAlignment="textEnd"
+                android:paddingRight="20sp"
+                android:paddingTop="10sp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/b1"
+            android:layout_width="match_parent"
+            android:layout_height="134dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            app:cardBackgroundColor="@color/buttonblue"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp"
+            app:cardMaxElevation="12dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true"
+            tools:ignore="DuplicateIds,InvalidId">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="Block-3"
+                android:textColor="@color/white"
+                android:layout_gravity="center|center_horizontal"
+                android:textAlignment="textEnd"
+                android:paddingRight="20sp"
+                android:paddingTop="10sp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/b1"
+            android:layout_width="match_parent"
+            android:layout_height="134dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            app:cardBackgroundColor="@color/buttonblue"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp"
+            app:cardMaxElevation="12dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true"
+            tools:ignore="DuplicateIds,InvalidId">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="Block-4"
+                android:textColor="@color/white"
+                android:layout_gravity="center|center_horizontal"
+                android:textAlignment="textEnd"
+                android:paddingRight="20sp"
+                android:paddingTop="10sp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/b1"
+            android:layout_width="match_parent"
+            android:layout_height="134dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            app:cardBackgroundColor="@color/buttonblue"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp"
+            app:cardMaxElevation="12dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true"
+            tools:ignore="DuplicateIds,InvalidId">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="Block-5"
+                android:textColor="@color/white"
+                android:layout_gravity="center|center_horizontal"
+                android:textAlignment="textEnd"
+                android:paddingRight="20sp"
+                android:paddingTop="10sp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/b1"
+            android:layout_width="match_parent"
+            android:layout_height="134dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            app:cardBackgroundColor="@color/buttonblue"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp"
+            app:cardMaxElevation="12dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true"
+            tools:ignore="DuplicateIds,InvalidId">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="Architecture"
+                android:textColor="@color/white"
+                android:layout_gravity="center|center_horizontal"
+                android:textAlignment="textEnd"
+                android:paddingRight="20sp"
+                android:paddingTop="10sp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/b1"
+            android:layout_width="match_parent"
+            android:layout_height="134dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            app:cardBackgroundColor="@color/buttonblue"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp"
+            app:cardMaxElevation="12dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true"
+            tools:ignore="DuplicateIds,InvalidId">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="Psychology"
+                android:textColor="@color/white"
+                android:layout_gravity="center|center_horizontal"
+                android:textAlignment="textEnd"
+                android:paddingRight="20sp"
+                android:paddingTop="10sp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/b1"
+            android:layout_width="match_parent"
+            android:layout_height="134dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            app:cardBackgroundColor="@color/buttonblue"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp"
+            app:cardMaxElevation="12dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true"
+            tools:ignore="DuplicateIds,InvalidId">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="Devadanhall"
+                android:textColor="@color/white"
+                android:layout_gravity="center|center_horizontal"
+                android:textAlignment="textEnd"
+                android:paddingRight="20sp"
+                android:paddingTop="10sp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/b1"
+            android:layout_width="match_parent"
+            android:layout_height="134dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            app:cardBackgroundColor="@color/buttonblue"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp"
+            app:cardMaxElevation="12dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true"
+            tools:ignore="DuplicateIds,InvalidId">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="PU College"
+                android:textColor="@color/white"
+                android:layout_gravity="center|center_horizontal"
+                android:textAlignment="textEnd"
+                android:paddingRight="20sp"
+                android:paddingTop="10sp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+</ScrollView>

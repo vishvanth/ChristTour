@@ -71,8 +71,9 @@
         android:layout_marginTop="59dp"
         android:fontFamily="sans-serif-light"
         android:text="Categories"
+        android:textColor="@color/black"
         android:textAlignment="center"
-        android:backgroundTint="@color/buttonblue"
+        android:backgroundTint="@color/black"
         android:textSize="36sp" />/>
 
     <Button

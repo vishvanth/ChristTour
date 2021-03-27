@@ -15,7 +15,7 @@
         android:layout_height="137dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="41dp"
+        android:layout_marginTop="82dp"
         android:src="@drawable/christ_tras" />
 
     <ImageView
@@ -24,29 +24,9 @@
         android:layout_height="107dp"
         android:layout_below="@+id/homeLogo"
         android:layout_alignStart="@+id/homeLogo"
-        android:layout_marginStart="35dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="83dp"
         android:src="@drawable/map" />
-
-    <ImageView
-        android:id="@+id/buttonListIcon"
-        android:layout_width="103dp"
-        android:layout_height="106dp"
-        android:layout_below="@+id/homeLogo"
-        android:layout_alignEnd="@+id/homeLogo"
-        android:layout_marginTop="42dp"
-        android:layout_marginEnd="30dp"
-        android:src="@drawable/list" />
-
-    <ImageView
-        android:id="@+id/buttonAboutIcon"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_below="@+id/buttonMapIcon"
-        android:layout_alignStart="@+id/homeLogo"
-        android:layout_marginStart="39dp"
-        android:layout_marginTop="42dp"
-        android:src="@drawable/info" />
 
     <ImageView
         android:id="@+id/buttonHelpIcon"
@@ -54,9 +34,30 @@
         android:layout_height="133dp"
         android:layout_below="@+id/buttonListIcon"
         android:layout_alignEnd="@+id/homeLogo"
-        android:layout_marginTop="16.5dp"
-        android:layout_marginEnd="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="21dp"
         android:src="@drawable/help_button" />
+
+    <ImageView
+        android:id="@+id/buttonAboutIcon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/buttonMapIcon"
+        android:layout_alignStart="@+id/homeLogo"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="44dp"
+        android:src="@drawable/info" />
+
+    <ImageView
+        android:id="@+id/buttonListIcon"
+        android:layout_width="103dp"
+        android:layout_height="106dp"
+        android:layout_below="@+id/homeLogo"
+        android:layout_alignEnd="@+id/homeLogo"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="95dp"
+        android:layout_marginEnd="27dp"
+        android:src="@drawable/list" />
 
 
 </RelativeLayout>
