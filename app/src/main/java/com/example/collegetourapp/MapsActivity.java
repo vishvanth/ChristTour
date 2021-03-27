@@ -1,5 +1,5 @@
 package com.example.collegetourapp;
-
+//sparta5
 import androidx.fragment.app.FragmentActivity;
 
 import android.content.res.Resources;
