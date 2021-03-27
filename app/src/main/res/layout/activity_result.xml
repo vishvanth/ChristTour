@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    tools:context=".one"
     android:background="@drawable/gradient">
 
     <LinearLayout
@@ -26,12 +27,12 @@
 
         </TextView>
 
-        <!--block1-->
         <androidx.cardview.widget.CardView
             android:id="@+id/b1"
             android:layout_width="match_parent"
             android:layout_height="200dp"
-
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
             android:layout_marginTop="0sp"
             android:layout_marginLeft="10sp"
             android:layout_marginRight="10sp"
@@ -85,6 +86,7 @@
                 android:textStyle="italic"
                 tools:ignore="RtlCompat" />
         </androidx.cardview.widget.CardView>
+
 
         <androidx.cardview.widget.CardView
             android:id="@+id/b1"
@@ -272,6 +274,8 @@
             android:id="@+id/b1"
             android:layout_width="match_parent"
             android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
             android:layout_marginTop="0sp"
             android:layout_marginLeft="10sp"
             android:layout_marginRight="10sp"
