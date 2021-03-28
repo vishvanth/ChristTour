@@ -10,11 +10,11 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="19dp"
+        android:layout_marginBottom="10dp"
         android:text="Want to know more about Christ University\n
          Kengeri Campus?"
         android:textAlignment="center"
-        android:textColor="#E83232"
+        android:textColor="#E86632"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/textView4"
@@ -25,7 +25,7 @@
     <TextView
         android:id="@+id/textView4"
         android:layout_width="67dp"
-        android:layout_height="33dp"
+        android:layout_height="28dp"
         android:text="Visit:"
         android:textAlignment="center"
         android:textColor="#090000"
@@ -42,7 +42,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="10dp"
         android:gravity="center"
         android:text="@string/messageWithLink"
         android:textColor="#03A9F4"
@@ -59,7 +59,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginBottom="27dp"
         android:text="What are the functions of the buttons?"
-        android:textColor="#E83232"
+        android:textColor="#E86632"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/imageView3"
@@ -120,12 +120,12 @@
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="0dp"
+        android:layout_width="350dp"
         android:layout_height="0dp"
         android:layout_marginStart="2dp"
-        android:layout_marginTop="7dp"
-        android:layout_marginEnd="2dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="1dp"
         app:layout_constraintBottom_toTopOf="@+id/textView3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -135,54 +135,57 @@
     <TextView
         android:id="@+id/textView11"
         android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_height="100dp"
         android:layout_marginEnd="32dp"
         android:text="The Help button goes to the Help Page, Which Explains Buttons to the Users."
         android:textColor="#0C0C0C"
-        android:textSize="18sp"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView3"
         app:layout_constraintTop_toTopOf="@+id/imageView3"
-        app:layout_constraintVertical_bias="0.0" />
-
+        app:layout_constraintVertical_bias="0.0"
+        android:textStyle="italic"/>
     <TextView
         android:id="@+id/textView12"
         android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_height="100dp"
         android:layout_marginEnd="32dp"
         android:text="The List button goes to the List Page, Which displays the various places available in the University."
         android:textColor="#0C0C0C"
-        android:textSize="18sp"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView2"
-        app:layout_constraintTop_toTopOf="@+id/imageView2" />
+        app:layout_constraintTop_toTopOf="@+id/imageView2"
+        android:textStyle="italic"/>
 
     <TextView
         android:id="@+id/textView13"
         android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_height="100dp"
         android:layout_marginEnd="32dp"
         android:text="The Map Buttons goes to the GPS Map which shows the buildings location of Kengeri Campus."
         android:textColor="#0C0C0C"
-        android:textSize="18sp"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView4"
-        app:layout_constraintTop_toTopOf="@+id/imageView4" />
+        app:layout_constraintTop_toTopOf="@+id/imageView4"
+        android:textStyle="italic"/>
 
     <TextView
         android:id="@+id/textView14"
         android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_height="100dp"
         android:layout_marginEnd="32dp"
         android:text="The Information button goes to the Information Page, Which displays the information about the app."
         android:textColor="#0C0C0C"
-        android:textSize="18sp"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView5"
-        app:layout_constraintTop_toTopOf="@+id/imageView5" />
+        app:layout_constraintTop_toTopOf="@+id/imageView5"
+        android:textStyle="italic"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
