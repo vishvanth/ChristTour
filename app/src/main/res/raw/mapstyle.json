@@ -31,5 +31,13 @@
         "visibility": "off"
       }
     ]
+  },
+  {
+    "featureType": "poi.school",
+    "stylers": [
+      {
+        "color": "#FCF2D5"
+      }
+    ]
   }
 ]

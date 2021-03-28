@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -43,14 +45,14 @@
             app:cardPreventCornerOverlap="true"
             app:cardUseCompatPadding="true"
             tools:ignore="DuplicateIds,InvalidId">
+
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:adjustViewBounds="true"
                 android:scaleType="centerCrop"
                 android:src="@drawable/block1"
-                android:tint="#40000000">
-            </ImageView>
+                android:tint="#40000000"></ImageView>
 
             <TextView
                 android:layout_width="match_parent"
@@ -89,7 +91,7 @@
 
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/b1"
+            android:id="@+id/b2"
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_alignParentTop="true"
@@ -149,7 +151,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/b1"
+            android:id="@+id/b3"
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_alignParentTop="true"
@@ -210,7 +212,7 @@
 
 <!--block4-->
         <androidx.cardview.widget.CardView
-            android:id="@+id/b1"
+            android:id="@+id/b4"
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_alignParentTop="true"
@@ -271,7 +273,7 @@
 
         <!--block5-->
         <androidx.cardview.widget.CardView
-            android:id="@+id/b1"
+            android:id="@+id/b5"
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_alignParentTop="true"
@@ -332,7 +334,7 @@
 
         <!--architecture-->
         <androidx.cardview.widget.CardView
-            android:id="@+id/b1"
+            android:id="@+id/b6"
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_alignParentTop="true"
@@ -393,7 +395,7 @@
 
         <!--Devadanhall-->
         <androidx.cardview.widget.CardView
-            android:id="@+id/b1"
+            android:id="@+id/b7"
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_alignParentTop="true"
@@ -454,7 +456,7 @@
 
         <!--PU College-->
         <androidx.cardview.widget.CardView
-            android:id="@+id/b1"
+            android:id="@+id/b8"
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_alignParentTop="true"
