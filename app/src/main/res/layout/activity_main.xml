@@ -20,48 +20,52 @@
 
     <ImageView
         android:id="@+id/buttonMapIcon"
-        android:layout_width="107dp"
-        android:layout_height="107dp"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
         android:layout_below="@+id/homeLogo"
         android:layout_alignStart="@+id/homeLogo"
-        android:layout_marginStart="45dp"
-        android:layout_marginTop="83dp"
-        android:src="@drawable/map"
-        android:background="@drawable/ripple_effect"/>
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="74dp"
+        android:background="@drawable/ripple_effect"
+        android:src="@drawable/map" />
 
     <ImageView
         android:id="@+id/buttonHelpIcon"
-        android:layout_width="133dp"
-        android:layout_height="133dp"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
         android:layout_below="@+id/buttonListIcon"
         android:layout_alignEnd="@+id/homeLogo"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="21dp"
-        android:src="@drawable/help_button"
-        android:background="@drawable/ripple_effect"/>
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/ripple_effect"
+        android:scaleX=".95"
+        android:scaleY=".95"
+        android:src="@drawable/help_button" />
 
     <ImageView
         android:id="@+id/buttonAboutIcon"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
         android:layout_below="@+id/buttonMapIcon"
         android:layout_alignStart="@+id/homeLogo"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="44dp"
-        android:src="@drawable/info"
-        android:background="@drawable/ripple_effect"/>
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="47dp"
+        android:background="@drawable/ripple_effect"
+        android:scaleX=".9"
+        android:scaleY=".9"
+        android:src="@drawable/info" />
 
     <ImageView
         android:id="@+id/buttonListIcon"
-        android:layout_width="103dp"
-        android:layout_height="106dp"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
         android:layout_below="@+id/homeLogo"
         android:layout_alignEnd="@+id/homeLogo"
-        android:layout_centerVertical="true"
-        android:layout_marginTop="95dp"
-        android:layout_marginEnd="27dp"
-        android:src="@drawable/list"
-        android:background="@drawable/ripple_effect"/>
+        android:layout_marginTop="86dp"
+        android:layout_marginEnd="18dp"
+        android:background="@drawable/ripple_effect"
+        android:cropToPadding="false"
+        android:src="@drawable/list" />
 
 
 </RelativeLayout>

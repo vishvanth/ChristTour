@@ -11,7 +11,7 @@ import android.widget.RelativeLayout;
 
 public class ActivityList extends AppCompatActivity {
     private Button buttonBlock;
-    private Button buttonLabs;
+    //private Button buttonLabs;
     private Button buttonGrounds;
     private Button buttonCanteens;
     private Button buttonTheater;
