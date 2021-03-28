@@ -35,10 +35,10 @@
         android:layout_height="107dp"
         android:layout_below="@+id/buttonListIcon"
         android:layout_alignEnd="@+id/homeLogo"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="38dp"
         android:layout_marginEnd="40dp"
-        android:src="@drawable/help_button"
-        android:background="@drawable/ripple_effect"/>
+        android:background="@drawable/ripple_effect"
+        android:src="@drawable/help_button" />
 
     <ImageView
         android:id="@+id/buttonAboutIcon"
@@ -57,11 +57,10 @@
         android:layout_height="103dp"
         android:layout_below="@+id/homeLogo"
         android:layout_alignEnd="@+id/homeLogo"
-        android:layout_centerVertical="true"
-        android:layout_marginTop="73dp"
+        android:layout_marginTop="82dp"
         android:layout_marginEnd="40dp"
-        android:src="@drawable/list"
-        android:background="@drawable/ripple_effect"/>
+        android:background="@drawable/ripple_effect"
+        android:src="@drawable/list" />
 
 
 </RelativeLayout>
